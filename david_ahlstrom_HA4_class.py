@@ -1,19 +1,3 @@
-#-------------------------------------------------------------------------------
-# HA4
-# Student Name: David Ahlstrom
-# Python version: 3.7.8 
-# Submission Date: 11/05/2022
-#-------------------------------------------------------------------------------
-# Honor Code Statement: I received no assistance on this assignment that
-# violates the ethical guidelines as set forth by the
-# instructor and the class syllabus.
-#-------------------------------------------------------------------------------
-# References: Slides and example code
-#-------------------------------------------------------------------------------
-# Notes to grader: N/A
-#-------------------------------------------------------------------------------
-# NOTE: width of source code should be < 80 characters to facilitate printing
-#-------------------------------------------------------------------------------
 class InvalidCourse(Exception):
     def __str__(self):
         return 'Course not found!'
